@@ -1,0 +1,58 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.MHeading {
+  font-family: "Franklin Gothic Medium";
+  text-align: center;
+  /* background-image: url("https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif"); */
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  padding: 25px 0px;
+}
+
+#mHeading {
+  color: white;
+  display: inline-block;
+}
+
+#mHeading:hover {
+  color: yellow;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.NavBar {
+  background-color: #404040;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.NavBar a {
+  color: white;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#loginBtn {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  border: none;
+  background-color: #0a0a23;
+}
+
+.NavBar a:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+  color: yellow;
+}
+
+#loginBtn:hover {
+  background-color: #002ead;
+}
